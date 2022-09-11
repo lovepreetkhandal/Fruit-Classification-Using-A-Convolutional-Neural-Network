@@ -8,4 +8,4 @@ async def ping():
     return "Hello!"
 
 if __name__ == "__app__":
-    uvicorn.run(app, host ="127.8.0.0.0.1", port = 8000)
+    uvicorn.run(app, host ='localhost', port = 8000)
